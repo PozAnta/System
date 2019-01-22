@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Method SetupId="6">
+  <Test TestId="Enable">
+    <FieldEnable Name="Save the parameters" Expect="The parameters should be saved successfully">PASS</FieldEnable>
+    <FieldEnable Name="Enable the system setup" Expect="The system setup should be enabled">PASS</FieldEnable>
+    <FieldEnable Name="Disable the system setup" Expect="The system setup should be disabled">PASS</FieldEnable>
+  </Test>
+  <Test TestId="Motion">
+    <FieldMotion Name="Enable the setup by each axis" Expect="Each axis should be in Enable state">PASS</FieldMotion>
+    <FieldMotion Name="Perform motion of the setup" Expect="Each axis should movement according to configuration">PASS</FieldMotion>
+    <FieldMotion Name="Disable the system setup" Expect="The system setup should be disabled">PASS</FieldMotion>
+  </Test>
+</Method>

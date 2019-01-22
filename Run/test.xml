@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Method ID="1" Cmd="Update">
+  <Field Name="Save the parameters" Expect="The parameters should be saved successfully">Pass</Field>
+  <Field Name="Enable the system setup" Expect="The system setup should be enabled">Pass</Field>
+  <Field Name="Disable the setup" Expect="The setup should be disabled successfully">Fail</Field>
+</Method>

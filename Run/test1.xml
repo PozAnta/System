@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Method SetupId="1">
+  <Test TestId="Enable">
+    <FieldEnable Name="Save the parameters" Expect="The parameters should be saved successfully">Pass</FieldEnable>
+    <FieldEnable Name="Enable the system setup" Expect="The system setup should be enabled">Pass</FieldEnable>
+    <FieldEnable Name="Disable the system setup" Expect="The system setup should be disabled">Pass</FieldEnable>
+  </Test>
+  <Test TestId="EnableNew">
+    <FieldEnableNew Name="Save the parameters" Expect="The parameters should be saved successfully">PASS</FieldEnableNew>
+    <FieldEnableNew Name="Enable the system setup" Expect="The system setup should be enabled">PASS</FieldEnableNew>
+    <FieldEnableNew Name="Disable the system setup" Expect="The system setup should be disabled">PASS</FieldEnableNew>
+  </Test>
+</Method>
