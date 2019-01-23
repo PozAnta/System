@@ -12,6 +12,7 @@ namespace MyWPF
         public string path;
         public string id_test;
         public string setupId;
+		// new branch test
 
         public XMLItems(string path, string id_test, string setupId)
         {
